@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <meta name="description" content="">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="Css/Styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/74d8cc3546.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <section >
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light hi">
+              
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="logo-img">
+                    <img class="phone" id="main_menu" src="Images/Pharmacy_Logo.jpg" alt="Pharmacy_Logo">
+              </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="Parmacy_login.HTML">Medicines</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="Staff_login.HTML">Staff </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="Customers.HTML">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Orders.HTML">Orders</a>
+                      </li>
+                     </ul>
+                </div>
+              </nav>
+        
+        
+            <!-- Title -->
+        <div class="raone">
+        <div class="gone" >
+            <img  class="medi_img" src="Images/Cust.jpg" alt="Order">
+        </div>
+      <div class="hdm"> <h2 class="hding" >Customers</h2> </div>
+          </div>
+           </div>
+       </section>
+       <div class="sndpt">
+        <div class="login-pharma">
+          <h2 class="bcd">Customer Details:</h2>
+     </div>
+              
+    
+          <form>
+              <!-- Header -->
+
+            <!-- Medicine name-->
+            <div class="form-outline mb-4"  style="padding-left: 150px; padding-right: 150px;" >
+              <input type="text" id="src-name" class="form-control form-control-lg"
+                placeholder="Enter the customer name:"/>
+              <label class="form-label" for="form3Example3"></label>
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="button" id="src-btn" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Search</button>
+
+                <button type="button" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">All</button>
+              <!-- <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                  class="link-danger">Register</a></p> -->
+            </div>
+          </form>
+       
+          
+            <div class="disp-med" style=" margin-bottom: 70px;">
+            
+              <table id="customers" style="padding-left: 100px ;padding-right:100px ;">
+                <tr>
+                 
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Phone</th>
+                  <th>Gender</th>
+                  <th>Delete</th>
+                </tr>
+  
+                 <tbody id="medtabid"> 
+                
+                 </tbody>
+               </table>
+             </div>
+           
+                
+
+       </div>
+       <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary copyright">
+        <!-- Copyright -->
+        <div class="text-white mb-3 mb-md-0">
+          Copyright © 2022. All rights reserved.
+        </div>
+        <!-- Copyright -->
+    
+        <!-- Right -->
+        <div>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#!" class="text-white">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </div>
+        <script src="Customer_sec.js" ></script>
+    </body>
+</html>

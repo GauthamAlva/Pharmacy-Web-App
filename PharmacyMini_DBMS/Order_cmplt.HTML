@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <meta name="description" content="">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="Css/Styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/74d8cc3546.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo-img" style="background-color: white;">
+            <img class="phone" id="main_menu" src="Images/Pharmacy_Logo.jpg" alt="Pharmacy_Logo">
+      </div>
+
+<!-- <div class="hash" style="padding-left: 50px; ">
+    <h1 style="color: white;">Congradulations...You have placed your Order</h1>
+</div> -->
+<!-- back ground image and text -->
+
+<div
+  class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+  style="background-image: url('Images/pexels-rodnae-productions-7363056.jpg');
+  height: 500px;"
+>
+  <h1 class="mb-3 h1">Congratulations</h1>
+
+  <p>
+    Your Order will be Arriving in next 20 minutes.See the bright side. With every bad situation and hardship, there is something good in it waiting for us. Merely the thought of it is enough to revive our hope in life and make us look forward to the future. Always remember this so that your own negative thoughts won't be able to bring you down and lose hope.
+  </p>
+</div>
+<!-- Jumbotron -->
+      <section class="vh-100 ">
+        <div class="container-fluid h-custom">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <div class="login-pharma">
+                    <h2>Your Ordered Medicines are :</h2>
+               </div>
+                <!-- This div is used when backend is implimented -->
+                <table id="customers">
+                  <tr>
+                    
+                    <th>Medicine</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                  </tr>
+
+                   <tbody id="medtabid"> 
+                
+                   </tbody>
+                 </table>
+            </div>
+            <!-- <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 input">
+                <img  class="img-1"src="Images/congrat.jpg" alt="Pharmacy_img">
+            </div> -->
+          </div>
+        </div>
+ 
+      </section>
+      <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary copyright" style="padding-top: 50px;">
+        <!-- Copyright -->
+        <div class="text-white mb-3 mb-md-0">
+          Copyright © 2022. All rights reserved.
+        </div>
+        <!-- Copyright -->
+    
+        <!-- Right -->
+        <div>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#!" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#!" class="text-white">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </div>
+
+        <script src="order_cmp.js" async defer></script>
+    </body>
+</html>
